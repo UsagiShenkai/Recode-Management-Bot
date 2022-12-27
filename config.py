@@ -13,7 +13,7 @@ class Config(object):
     TOKEN = getenv("TOKEN", "5888843904:AAEYxHtQNjCx8x-nglIorkueYaG-_DNOKe0")
     OWNER_ID = getenv("OWNER_ID", "5489233583")
     ASSISTANT_ID = getenv("ASSISTANT_ID", "5951656665")
-    STRING_SESSION = getenv("STRING_SESSION", "1BVtsOIYBu7JcP8VDGIl-F8ShIEUCaqtbl1k8Qb-doEl3r5sjbk3BiIt4ZJq1EFGCZVA28p6Z4r1WmeIxLdl50Dl5_3DabXTH3RJGwBpvo7n1Z0337UeXFUJss_GGfphZdgbr37GZSXkNwpB_U6IeNFOFAxekUDYubNiUFuhgmkdXgSNAh_cbhIi2nVeL2RNXfd1VBBmJmhbJEj2Rcyf6Tf4UtdiyLjr4xKJOKhKyc5GV7XonHTIvkd9I00_olvbcdm7uS53FnuqlZQzojoRdyEQqz6GiDQG0FvTtnPDBklWedhH7R4qZnJoopUbRwEvCJcnIikvFARcDCMBTW-CogDkPYio0CIg=") #telethon
+    STRING_SESSION = getenv("STRING_SESSION", "1BVtsOJQBu1YkzMFWwPY2BLMnEe_5pkGWavptTTSDoRhkk9Dxbe_bwmVOguoBsAgHZVa2tXuH8a3xnEqVMP7Ov3RwAKAoG3Fay48ple0u01PTsxCwKaG6ZXylesDzJ3wg9Cd9T5dHM-LphKbZt9aXut7JXBV0IUdVzNxFtLKqMKK2xjPv8F-6_Fl_E-qfb-9CIw4Ns0Qa4yVjwHyb9h0d3pc8S_qp70mVgZU9hPdTsNwid2Ni1zA1jJFZ3P8Y4n-c5CB4wIjRMZJKddXW4jbqNJ5YC3Lmi32A4QXDmrHEnIXjUVFDciCnlC8XTm6oPTZy1MmyYnfCGuy0UWYtfW1vKKi-C8wEjLY=") #telethon
     OWNER_USERNAME = getenv("OWNER_USERNAME", "Hirakox")
     DB_URI = getenv("DATABASE_URL", "postgres://qcocgtqm:xwAT1Iw4TmGsJMwSOJIgv7klpF11qVNH@mahmud.db.elephantsql.com/qcocgtqm")
     DB_URI = DB_URI.replace("postgres", "postgresql")
@@ -42,7 +42,7 @@ class Config(object):
     CASH_API_KEY = getenv("CASH_API_KEY", "https://www.alphavantage.co/support/#api-key")
     TIME_API_KEY = getenv("TIME_API_KEY", "https://timezonedb.com/api")
     WALL_API = getenv("WALL_API", "https://wall.alphacoders.com/api.php")
-    spamwatch_api = getenv("spamwatch_api", "https://t.me/SpamWatchBot")
+    spamwatch_api = getenv("spamwatch_api", "WIq7vEk07_m5NBxHH9u0sn5JyeVuDiqlIBVQgKcEuYv1zfU7l~3m2IxA3HT9OAUE")
     SPAMMERS = getenv("SPAMMERS", "")
     LASTFM_API_KEY = getenv("LASTFM_API_KEY", "https://www.last.fm/api/account/create")
     CF_API_KEY = getenv("CF_API_KEY", "coffehouse.intellivoid.net")
